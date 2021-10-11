@@ -9,3 +9,17 @@
     width: 100%;
     height: 100%;
   }
+  #tweet {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    left: 418.75%;
+    top: 381.25%;
+  }
+  #logo {
+    position: absolute;
+    width: 13.688rem;
+    height: 13.688rem;
+    left: 3762.5%;
+    top: 1887.5%;
+  }
