@@ -11,15 +11,11 @@
   }
   #tweet {
     position: absolute;
-    width: 5rem;
-    height: 5rem;
-    left: 418.75%;
-    top: 381.25%;
+    width: 80px;
+    height: 80px;
   }
   #logo {
     position: absolute;
-    width: 13.688rem;
-    height: 13.688rem;
-    left: 3762.5%;
-    top: 1887.5%;
+    width: 219px;
+    height: 219px;
   }
