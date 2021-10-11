@@ -6,7 +6,7 @@
   body {
     margin: auto;
   }
-  .main {
+  .background {
     background: linear-gradient(296.55deg, rgba(75, 104, 184, 0.6) 0.76%, rgba(75, 104, 184, 0) 105.9%), linear-gradient(117.59deg, rgba(32, 78, 107, 0.8) 7.14%, rgba(32, 78, 107, 0) 101.06%);
     width: 100%;
     height: 100%;
