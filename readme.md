@@ -1,0 +1,1 @@
+Official Gauntly Ghost website
