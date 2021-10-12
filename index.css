@@ -16,11 +16,17 @@
   }
   #tweet {
     position: absolute;
-    height: 10%;
+    height: 8%;
   }
-  #logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25%;
+  #logo{
+    height:25%;
+  }
+  .center {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+  .text{
+    text-align: center;
   }
