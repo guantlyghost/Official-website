@@ -8,6 +8,18 @@
     height:100%;
     /*overflow: hidden;*/
   }
+  @font-face {
+    font-family:'bungee';
+    src: url(fonts/BungeeHairline-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'bubbler';
+    src: url(fonts/BubblerOne-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+  }
   .background {
     margin: auto;
     background: linear-gradient(296.55deg, rgba(75, 104, 184, 0.6) 0.76%, rgba(75, 104, 184, 0) 105.9%), linear-gradient(117.59deg, rgba(32, 78, 107, 0.8) 7.14%, rgba(32, 78, 107, 0) 101.06%);
@@ -15,18 +27,51 @@
     height: 100%;
   }
   #tweet {
+    position:absolute;
+    top:2%;
+    left:2%;
+    height:8%;
+  }
+  #followus{
     position: absolute;
-    height: 8%;
+    left:7%;
+    top:5%;
+    font-family: 'bungee';
+    font-size: 1.2rem;
+    color: #FFFFFF;
   }
   #logo{
+    position: absolute;
+    top:46%;
     height:25%;
-  }
-  .center {
-    position:absolute;
-    top:50%;
     left:50%;
-    transform:translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+  #brandname{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:60%;
+    font-family: 'bungee';
+    color:#FFFFFF;
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+  #comingsoon{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:27%;
+    font-family: 'bubbler';
+    font-size: 2rem;
+    color: #FFFFFF;
   }
   .text{
+    position: absolute;
+    left:50%;
+    transform: translateX(-48%);
+    top:68%;
     text-align: center;
+    font-family: 'bubbler';
+    font-size: 2rem;
   }
