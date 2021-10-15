@@ -46,6 +46,24 @@
   .container a img{
     height: 60px;
   }
+  .container:hover a img{
+    border-radius: 50%;
+    animation: pulse 1s infinite;
+  }
+  @keyframes pulse{
+    0%{ 
+      transform: scale(0.95);
+      box-shadow: 0 10px 40px rgba(0,0,0,0.7);
+    }
+    70%{
+      transform: scale(1.03);
+      box-shadow: 0 10px 40px rgba(0,0,0,0);
+    }
+    100%{
+      transform: scale(0.95);
+      box-shadow: 0 10px 40px rgba(0,0,0,0.7);
+    }
+  }
   .container p{
     padding: 10px;
     font-family: 'bungee';
