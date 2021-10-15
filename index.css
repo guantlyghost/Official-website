@@ -8,6 +8,10 @@
     height:100%;
     overflow: hidden;
   }
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
   @font-face {
     font-family:'bungee';
     src: url(fonts/BungeeHairline-Regular.ttf);
