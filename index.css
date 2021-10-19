@@ -30,13 +30,14 @@
     width: 100%;
     height: 100%;
   }
-  #logo{
-    height:150px;
-  }
-  .container{
+  .t{
     padding: 20px 20px 0px;
-    border-radius: 50%;
     width: 306.8px;
+  }
+  .d{
+    position: absolute;
+    top: 5px;
+    right:0px;
   }
   .flex{
     display: flex;
@@ -45,18 +46,28 @@
     -ms--display: flex;
     align-items: center;
   }
-  .container a img{
+  .container a #twelogo{
     height: 60px;
   }
+  .container a #dis{
+    height: 100px;
+  }
+  #discord{
+    position: absolute;
+    width: 180px;
+    right:110px;
+    top:37px;
+  }
   .container:hover a img{
-    border-radius: 50%;
     transform: scale(1.08);
   }
   .container p{
-    padding: 10px;
     font-family: 'bungee';
     font-size: 1rem;
     color: white;
+  }
+  #followus{
+    padding: 10px;
   }
   .container2{
     display: flex;
@@ -72,6 +83,24 @@
   }
   p:first-child{
     color: white;
+  }
+  .wholecard{
+    position: relative;
+  }
+  #card{
+    position: relative;
+    height: 200px;
+  }
+  #logo{
+    position: absolute;
+    height:149px;
+    top: 9.5%;
+    left: 33%;
+    backface-visibility: hidden;
+  }
+  .container2 .box:hover img{
+    transition: transform 0.8s;
+    transform: rotateY(180deg);
   }
   span{
     font-family: 'bungee';
