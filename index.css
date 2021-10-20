@@ -32,7 +32,7 @@
   }
   .t{
     padding: 20px 20px 0px;
-    width: 306.8px;
+    max-width: 50%;
   }
   .d{
     position: absolute;
